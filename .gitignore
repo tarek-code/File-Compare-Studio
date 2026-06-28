@@ -1,0 +1,7 @@
+# anything have .xlsx extension and .csv
+*.xlsx
+*.csv
+
+# ignore venv
+venv
+.venv
