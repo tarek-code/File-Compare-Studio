@@ -1,6 +1,9 @@
 """
 Dynamic File Comparison Tool
 -----------------------------
+Developed & Copyrighted by Tarek (Unlimited)
+All Rights Reserved © 2026.
+
 Compares two data files (CSV or XLSX) on a chosen key column from each file,
 optionally applies filters before comparing, and produces three output files:
   1. Rows that exist only in File 1 (not in File 2)
@@ -15,12 +18,6 @@ Requirements:
 Usage:
     python compare_files.py
     (then follow the interactive prompts)
-
-Example for this project:
-    File #1 -> noms.xlsx        (key column: IpAddress)
-    File #2 -> NA_190.csv       (key column: Device IP)
-    Filter  -> noms.xlsx, column "HWType", keep values: BNG, Router, Switch, Controller
-    Special filter -> remove ActivationDate rows starting with "1970" (asked automatically)
 """
 
 import os
@@ -75,6 +72,8 @@ def choose_file_index(files):
 def main():
     print("=" * 60)
     print("Dynamic File Comparison Tool")
+    print("Developed & Copyrighted by Tarek (Unlimited)")
+    print("All Rights Reserved © 2026")
     print("=" * 60)
     print("\nThis tool reads two files (CSV or XLSX), lets you filter")
     print("them, and outputs:")

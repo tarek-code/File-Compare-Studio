@@ -1,7 +1,7 @@
-# anything have .xlsx extension and .csv
-*.xlsx
-*.csv
-
-# ignore venv
 venv
 .venv
+__pycache__
+*.pyc
+*.xlsx
+*.csv
+*.cpython
